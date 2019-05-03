@@ -1,0 +1,7 @@
+com\aspire\onlineshoping\ApplicationInitializer.class
+com\aspire\onlineshoping\controllers\Controller.class
+com\aspire\onlineshoping\models\dto\User.class
+com\aspire\onlineshoping\ApplicationConfiguration.class
+com\aspire\onlineshoping\manager\LoginManager.class
+com\aspire\onlineshoping\models\dao\UserDao.class
+com\aspire\onlineshoping\models\dto\LoginReponse.class
