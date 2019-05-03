@@ -14,8 +14,10 @@ public class LoginManager {
 		UserDao userDao = new UserDao();
 		List<User> userList = userDao.getAllUsers();
 		for (User userDetails:userList) {
+			System.out.println(userDetails.getName());
 			if (userDetails.equals(user.getName()) && userDetails.equals(user.getPassword())) {
 				loginResponse.setLoginStatus("Login Success");
+				System.out.println(user.getName());
 				break;
 			}
 		}
